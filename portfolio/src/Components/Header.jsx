@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <div className="header-sect">
       <div className="header-logo">
         <h1>James Ngandu</h1>
       </div>

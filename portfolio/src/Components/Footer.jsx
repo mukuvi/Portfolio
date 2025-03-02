@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
+    <div className="footer-sect">
       <div className="foot-left">
         <h1>Developer</h1>
       </div>
