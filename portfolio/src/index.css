@@ -6,6 +6,7 @@
   --light-color: #f8f9fa;
   --text-color: #333;
   --text-light: #666;
+  --hover-color: #ff7f50;
 
   --bg-color: #f8f9fa;
 
@@ -43,24 +44,56 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--light-color);
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: var(--dark-color);
 }
+
+.header-logo h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.header-logo a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+.header-logo a:hover {
+  color: var(--hover-color);
+}
+
 .header-navs > ul {
   display: flex;
   margin-right: 2rem;
+  padding: 0;
+  list-style: none;
 }
 .header-navs > ul > li {
-  list-style-type: none;
   padding: 1rem;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
-.header-logo {
-  margin-left: 2rem;
+
+.header-navs > ul > li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.header-navs > ul > li a:hover {
+  color: var(--hover-color);
+}
+
+.header-navs > ul > li .active {
+  color: var(--hover-color);
+  border-bottom: 2px solid #ff7f50;
 }
 /*Home*/
 .container {
   width: 100%;
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -174,7 +207,53 @@ body {
     transform: rotateX(-20deg) rotateY(360deg);
   }
 }
+/*Notfound*/
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  color: var(--text-color);
+  font-family: "Arial", sans-serif;
+}
 
+.not-found-content {
+  text-align: center;
+  background-color: var(--light-color);
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--hover-color);
+}
+
+.not-found p {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  color: var(--text-color);
+}
+
+.back-home-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--hover-color);
+  color: var(--light-color);
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background-color: #e76f40;
+}
 /*Footer*/
 .footer-sect {
   display: flex;

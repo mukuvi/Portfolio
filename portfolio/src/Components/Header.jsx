@@ -1,19 +1,46 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header-sect">
       <div className="header-logo">
-        <h1>James Ngandu</h1>
+        <h1>
+          <NavLink to="/">James Ngandu</NavLink>
+        </h1>
       </div>
       <div className="header-navs">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li>
+            <NavLink exact to="/" activeClassName="active">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/about" activeClassName="active">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/skills" activeClassName="active">
+              Skills
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects" activeClassName="active">
+              Projects
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/services" activeClassName="active">
+              Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" activeClassName="active">
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>
