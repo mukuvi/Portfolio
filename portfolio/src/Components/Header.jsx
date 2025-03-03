@@ -32,11 +32,6 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/services" activeClassName="active">
-              Services
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/contact" activeClassName="active">
               Contact
             </NavLink>

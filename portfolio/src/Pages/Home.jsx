@@ -11,7 +11,8 @@ function Home() {
           <h1 className="home-title">Hi, I'm JAMES</h1>
           <h3 className="home-subtitle">Software Developer</h3>
           <p className="home-text">
-            I build modern, responsive web applications
+            I build modern, responsive web applications <br />
+            that deliver exceptional user experiences.
           </p>
           <div className="home-btns">
             <button

@@ -98,7 +98,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 .home-main-sect {
   display: flex;
@@ -207,7 +207,7 @@ body {
     transform: rotateX(-20deg) rotateY(360deg);
   }
 }
-/*Skilss*/
+/*Skills*/
 .skills-sect {
   text-align: center;
 }
@@ -218,7 +218,73 @@ body {
 .skills-right-sect,
 .skills-left-sect {
   max-width: 400px;
+} /*About*/
+.about-container {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--dark-color);
 }
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.about-profile {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: var(--text-light);
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.about-main-sect {
+  margin-top: 40px;
+}
+
+.about-main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-journey {
+  margin-bottom: 30px;
+}
+
+.about-main-subtitle {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.about-main-description {
+  font-size: 1.8rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  padding-left: 20px;
+  border-left: 4px solid var(--text-color);
+}
+/*Contact*/
+/*Projects*/
+
 /*Notfound*/
 .not-found {
   display: flex;
