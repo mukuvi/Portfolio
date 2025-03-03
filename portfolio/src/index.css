@@ -211,6 +211,14 @@ body {
 .skills-sect {
   text-align: center;
 }
+.skills-mid-sect {
+  display: flex;
+  justify-content: space-around;
+}
+.skills-right-sect,
+.skills-left-sect {
+  max-width: 400px;
+}
 /*Notfound*/
 .not-found {
   display: flex;

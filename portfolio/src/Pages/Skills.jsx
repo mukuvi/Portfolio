@@ -10,11 +10,22 @@ function Skills() {
         <div className="skills-title">
           <h1>Top skills</h1>
         </div>
-        <div className="skills-right-sect">
-          <h1>Frontend</h1>
-        </div>
-        <div className="skills-left-sect">
-          <h1>Backend</h1>
+        <div className="skills-mid-sect">
+          <div className="skills-right-sect">
+            <h1>Frontend</h1>
+            <p>
+              I build dynamic SPAs with React, semantic code for better SEO and
+              modern tech like Next.js, TailwindCSS and ES6+ for efficient,
+              scalable applications.
+            </p>
+          </div>
+          <div className="skills-left-sect">
+            <h1>Backend</h1>
+            <p>
+              I develop scalable and maintainable backend systems with MongoDB,
+              Express.js and Node
+            </p>
+          </div>
         </div>
       </div>
       <Footer />
