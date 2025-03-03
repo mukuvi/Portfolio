@@ -207,6 +207,10 @@ body {
     transform: rotateX(-20deg) rotateY(360deg);
   }
 }
+/*Skilss*/
+.skills-sect {
+  text-align: center;
+}
 /*Notfound*/
 .not-found {
   display: flex;

@@ -6,7 +6,9 @@ function About() {
   return (
     <div className="container">
       <Header />
-      About
+      <div className="about-img">image</div>
+      <div className="about-more"></div>
+
       <Footer />
     </div>
   );
