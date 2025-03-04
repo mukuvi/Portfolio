@@ -285,6 +285,28 @@ body {
 /*Contact*/
 /*Projects*/
 
+.projects-sect {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects-sect h1 {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.projects-sect p {
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+
 /*Notfound*/
 .not-found {
   display: flex;
