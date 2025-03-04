@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="container">
       <Header />
-      contact
+      contact me
       <Footer />
     </div>
   );
