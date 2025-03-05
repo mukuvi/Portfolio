@@ -1,3 +1,3 @@
-# james n
+# james
 
 My portfolio
