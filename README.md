@@ -1,3 +1,3 @@
 # james
 
-> My portfolio
+My portfolio
