@@ -44,7 +44,10 @@ function Header() {
           </li>
         </ul>
       </div>
-      <div className="hamburger" onClick={toggleMenu}>
+      <div
+        className={`hamburger ${menuOpen ? "hide" : ""}`}
+        onClick={toggleMenu}
+      >
         &#9776;
       </div>
     </div>
