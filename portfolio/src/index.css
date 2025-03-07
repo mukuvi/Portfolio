@@ -65,16 +65,15 @@ body {
   color: var(--hover-color);
 }
 
-/* Resize the logo on smaller devices */
 @media (max-width: 1024px) {
   .header-logo h1 {
-    font-size: 2rem; /* Reduced font size for tablets */
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 768px) {
   .header-logo h1 {
-    font-size: 1.8rem; /* Further reduce font size for mobile devices */
+    font-size: 1.8rem;
   }
 }
 
