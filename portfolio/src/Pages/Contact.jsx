@@ -50,7 +50,7 @@ export default function BasicForm() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 id="name"
-                placeholder="Your first and last name"
+                placeholder="James Ngandu"
                 className="contact-input"
               />
             </div>
@@ -62,7 +62,7 @@ export default function BasicForm() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 id="email"
-                placeholder="john@doe.com"
+                placeholder="james@gmail.com"
                 className="contact-input"
               />
             </div>
