@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="header-sect">
       <div className="header-logo">
@@ -9,7 +15,7 @@ function Header() {
           <NavLink to="/">James Ngandu</NavLink>
         </h1>
       </div>
-      <div className="header-navs">
+      <div className={`header-navs ${menuOpen ? "active" : ""}`}>
         <ul>
           <li>
             <NavLink exact to="/" activeClassName="active">
@@ -37,6 +43,9 @@ function Header() {
             </NavLink>
           </li>
         </ul>
+      </div>
+      <div className="hamburger" onClick={toggleMenu}>
+        &#9776;
       </div>
     </div>
   );

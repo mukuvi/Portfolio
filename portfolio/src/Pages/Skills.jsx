@@ -4,11 +4,11 @@ import Footer from "../Components/Footer";
 
 function Skills() {
   return (
-    <div className="container ">
+    <div className="container">
       <Header />
       <div className="skills-sect">
         <div className="skills-title">
-          <h1>Top skills</h1>
+          <h1>Top Skills</h1>
         </div>
         <div className="skills-mid-sect">
           <div className="skills-right-sect">
@@ -23,7 +23,7 @@ function Skills() {
             <h1>Backend</h1>
             <p>
               I develop scalable and maintainable backend systems with MongoDB,
-              Express.js and Node
+              Express.js and Node.
             </p>
           </div>
         </div>

@@ -39,11 +39,10 @@ body {
   background-color: var(--bg-color);
   overflow-x: hidden;
 }
-/*header*/
 .header-sect {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--light-color);
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -71,6 +70,7 @@ body {
   padding: 0;
   list-style: none;
 }
+
 .header-navs > ul > li {
   padding: 1rem;
   font-weight: bold;
@@ -91,6 +91,50 @@ body {
   color: var(--hover-color);
   border-bottom: 2px solid #ff7f50;
 }
+
+/* Hamburger styles */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+  .header-navs {
+    display: none;
+    width: 100%;
+  }
+  /* .header-logo {
+    display: none;
+  } */
+  .header-navs.active {
+    display: block;
+  }
+
+  .header-navs > ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .header-navs > ul > li {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .header-navs > ul > li a {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+    margin-right: 2rem;
+  }
+}
+
 /*Home*/
 .container {
   width: 100%;
@@ -218,7 +262,8 @@ body {
 .skills-right-sect,
 .skills-left-sect {
   max-width: 400px;
-} /*About*/
+}
+/*About*/
 .about-container {
   min-height: 100vh;
   background-color: var(--bg-color);
