@@ -1,12 +1,12 @@
 # Welcome to My Portfolio!
 
-Hello! I'm **James Ngandu**, a passionate and dedicated developer. Welcome to my GitHub profile. Here, you can explore some of my projects, and get to know more about me and my work. I love creating innovative solutions and am always eager to learn new technologies.
+Hello! I'm **James Ngandu**, a passionate and dedicated developer. Welcome to my GitHub profile. Here, you can explore some of my projects and get to know more about me and my work. I love creating innovative solutions and am always eager to learn new technologies.
 
-![Profile Image](https://res.cloudinary.com/dicfffpsh/image/upload/v1742247307/image2_xbqpfv.jpg)
+<img src="https://res.cloudinary.com/dicfffpsh/image/upload/v1742247307/image2_xbqpfv.jpg" alt="Profile Image" width="200" />
 
 ## About Me
 
-I'm a **Full Stack Developer** with experience in building web applications. I specialize in JavaScript, React, Node.js, and various other technologies. My goal is to continuously improve my skills and create impactful software.
+I'm a **Full Stack Developer** with experience in building web applications. My goal is to continuously improve my skills and create impactful software.
 
 I enjoy collaborating on open-source projects and contributing to the tech community.
 
