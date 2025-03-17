@@ -6,7 +6,8 @@ Hello! I'm **James Ngandu**, a passionate and dedicated developer. Welcome to my
 
 ## About Me
 
-I'm a **Full Stack Developer** with experience in building web applications. My goal is to continuously improve my skills and create impactful software.
+I'm a **Full Stack Developer** with experience in building web applications.
+My goal is to continuously improve my skills and create impactful software.
 
 I enjoy collaborating on open-source projects and contributing to the tech community.
 
