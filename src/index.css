@@ -38,6 +38,7 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
   overflow-x: hidden;
+  user-select: none;
 }
 /* Header styles */
 .header-sect {
