@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
           className="github-link"
         >
           <button className="github-button">
-            <FaGithub className="github-icon" /> View on GitHub
+            <FaGithub className="github-icon" /> View
           </button>
         </a>
       )}

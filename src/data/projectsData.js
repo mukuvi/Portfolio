@@ -18,13 +18,13 @@ const projectsData = [
     github: "https://github.com/puffadders",
   },
   {
-    id: 3,
-    title: "ChepChat",
-    tagline: "A simple, intuitive chatting web platform.",
+    id: 5,
+    title: "DevFest Nairobi",
+    tagline: "A Premier Google Developers Event.",
     description:
-      "Connecting people across the globe, ChepChat provides a user-friendly interface for seamless real-time communication, whether for work or play.",
-    color: "#32CD32",
-    github: "https://github.com/mukuvi/chepchat",
+      "DevFest Nairobi is an exciting event bringing together developers and tech enthusiasts to explore the latest in Google technologies, share knowledge, and network with industry leaders.",
+    color: "#8A2BE2",
+    github: "https://devfestnairobi.vercel.app/",
   },
   {
     id: 4,
@@ -37,13 +37,13 @@ const projectsData = [
     github: "https://github.com/mukuvi/naphotie",
   },
   {
-    id: 5,
-    title: "Serenity",
-    tagline: "An e-commerce platform for homes.",
+    id: 3,
+    title: "ChepChat",
+    tagline: "A simple, intuitive chatting web platform.",
     description:
-      "Serenity brings you a curated collection of home products, from furniture to decor, all designed to create serene, beautiful living spaces.",
-    color: "#8A2BE2",
-    github: "https://github.com/mukuvi/serenity",
+      "Connecting people across the globe, ChepChat provides a user-friendly interface for seamless real-time communication, whether for work or play.",
+    color: "#32CD32",
+    github: "https://github.com/mukuvi/chepchat",
   },
   {
     id: 6,
