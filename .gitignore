@@ -46,3 +46,5 @@ iles
 *.njsproj
 *.sln
 *.sw?
+# keys
+paystackConfig.js
