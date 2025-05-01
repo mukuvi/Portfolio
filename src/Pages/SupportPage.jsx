@@ -55,6 +55,7 @@ const SupportPage = () => {
       <Header />
       <div className="support-container">
         <h1 className="support-title">Support My Work</h1>
+        <p>Your support helps me create more amazing projects and content.</p>
 
         <div className="support-grid">
           {[
