@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import MyImage from "/mukuvi.jpeg";
-
+import { Link } from "react-router-dom";
+import SupportPage from "./SupportPage";
 export default function BasicForm() {
   return (
     <div className="container">
@@ -31,13 +32,13 @@ export default function BasicForm() {
             <div className="contact-methods">
               <div className="contact-method">
                 <div className="icon-circle">
-                  <a href="mailto:jamesmngandu@gmail.com">
-                    <i className="fas fa-envelope"></i>
-                  </a>
+                  <Link to="/Support">
+                    <i class="fas fa-hand-holding-heart"></i>
+                  </Link>
                 </div>
                 <div>
-                  <h3>Email Me</h3>
-                  <p>click here</p>
+                  <h3>Support me</h3>
+                  <Link to="/Support">click</Link>
                 </div>
               </div>
             </div>

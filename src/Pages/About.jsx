@@ -6,7 +6,6 @@ function About() {
   return (
     <div className="about-container">
       <Header />
-
       <div className="about-content">
         <div className="about-profile">
           <p className="about-title">Software Developer</p>
