@@ -1,6 +1,7 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHandHoldingUsd } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -16,6 +17,9 @@ function Footer() {
           <a href="https://www.linkedin.com/in/james-ngandu">
             <FaLinkedin size={30} className="social-icon" />
           </a>
+          <Link to="/Support">
+            <FaHandHoldingUsd size={30} className="social-icon" />
+          </Link>
         </div>
       </div>
       <div className="foot-right">

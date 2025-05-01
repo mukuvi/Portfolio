@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import MyImage from "/mukuvi.jpeg";
 import { Link } from "react-router-dom";
 import SupportPage from "./SupportPage";
+import { FaHandHoldingUsd } from "react-icons/fa";
 export default function BasicForm() {
   return (
     <div className="container">
@@ -33,7 +34,7 @@ export default function BasicForm() {
               <div className="contact-method">
                 <div className="icon-circle">
                   <Link to="/Support">
-                    <i class="fas fa-hand-holding-heart"></i>
+                    <FaHandHoldingUsd size={30} className="social-icon" />
                   </Link>
                 </div>
                 <div>
