@@ -6,7 +6,7 @@ const projectsData = [
     description:
       "A delightful platform that connects coffee lovers and cafes, turning every coffee break into a memorable experience. Perfect for discovering and sharing your favorite spots.",
     color: "#FF6347",
-    github: "https://github.com/mukuvi/cafesynca",
+    github: "https://cafesynca.vercel.app/",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const projectsData = [
     description:
       "A collaborative space built by and for creators, encouraging open-source contributions and knowledge sharing to build a better, more connected world.",
     color: "#4682B4",
-    github: "https://github.com/puffadders",
+    github: "https://puffadders.vercel.app/",
   },
   {
     id: 5,

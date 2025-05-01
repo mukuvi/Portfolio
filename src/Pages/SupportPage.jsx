@@ -21,7 +21,7 @@ const SupportPage = () => {
   }, []);
 
   const handlePay = () => {
-    if (!amount || amount < 1 || !email) {
+    if (!amount || amount < 100 || !email) {
       return alert("Enter a valid amount (min KES 100) and email");
     }
 

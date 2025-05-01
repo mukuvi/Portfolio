@@ -1,5 +1,7 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+
+import { FaFolderOpen } from "react-icons/fa";
+
 const ProjectCard = ({ project }) => {
   const { title, tagline, description, color, github } = project;
 
@@ -18,7 +20,7 @@ const ProjectCard = ({ project }) => {
           className="github-link"
         >
           <button className="github-button">
-            <FaGithub className="github-icon" /> View
+            <FaFolderOpen className="github-icon" /> View
           </button>
         </a>
       )}
