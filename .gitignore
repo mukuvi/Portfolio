@@ -47,4 +47,4 @@ iles
 *.sln
 *.sw?
 # keys
-paystackConfig.js
+.env
