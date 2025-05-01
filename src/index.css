@@ -1206,20 +1206,20 @@ body {
   background: #e0f2fe;
 }
 .blue .icon {
-  color: #2563eb;
+  color: coral;
 }
 .blue .support-button {
-  background: #2563eb;
+  background: coral;
 }
 
 .purple .icon-bg {
   background: #ede9fe;
 }
 .purple .icon {
-  color: #7c3aed;
+  color: rgb(209, 69, 18);
 }
 .purple .support-button {
-  background: #7c3aed;
+  background: rgb(209, 69, 18);
 }
 
 .modal-overlay {
@@ -1259,7 +1259,7 @@ body {
 .pay-button {
   width: 100%;
   padding: 0.75rem;
-  background: linear-gradient(to right, #fb923c, #ec4899);
+  background: linear-gradient(to right, #fb923c, #e0370d);
   color: white;
   font-weight: 500;
   border: none;
