@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { paystackConfig } from "../../paystackConfig";
+import { paystackConfig } from "../../paystackConfig.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
