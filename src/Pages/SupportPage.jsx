@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { paystackConfig } from "../../paystackConfig";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const SupportPage = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -50,7 +51,7 @@ const SupportPage = () => {
   };
 
   return (
-    <>
+    <div className="support">
       <Header />
       <div className="support-container">
         <h1 className="support-title">Support My Work</h1>
@@ -146,7 +147,52 @@ const SupportPage = () => {
           </div>
         )}
       </div>
-    </>
+      <div className="why-support">
+        <h2 className="why-title">Why Support My Work?</h2>
+        <div className="why-grid">
+          <div className="why-item">
+            <div className="why-icon green">
+              <i className="fas fa-lightbulb"></i>
+            </div>
+            <div>
+              <h3>Fuel Innovation</h3>
+              <p>
+                Your support allows me to experiment with new ideas and
+                technologies.
+              </p>
+            </div>
+          </div>
+          <div className="why-item">
+            <div className="why-icon yellow">
+              <i className="fas fa-clock"></i>
+            </div>
+            <div>
+              <h3>Time Investment</h3>
+              <p>Creating quality projects takes hundreds of hours of work.</p>
+            </div>
+          </div>
+          <div className="why-item">
+            <div className="why-icon red">
+              <i className="fas fa-server"></i>
+            </div>
+            <div>
+              <h3>Cover Costs</h3>
+              <p>Hosting, domains, APIs, and tools all add up over time.</p>
+            </div>
+          </div>
+          <div className="why-item">
+            <div className="why-icon blue">
+              <i className="fas fa-heart"></i>
+            </div>
+            <div>
+              <h3>Show Appreciation</h3>
+              <p>Your support motivates me to keep creating and sharing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
   );
 };
 
