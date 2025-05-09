@@ -71,7 +71,7 @@ const projectsData = [
     description:
       "ARN.IO makes learning more structured and rewarding by allowing users to set goals, track progress, and celebrate milestones, all in one place.",
     color: "#FF4500",
-    github: "https://github.com/mukuvi/ARN.IO",
+    github: "https://arn-io.vercel.app/",
   },
 ];
 
