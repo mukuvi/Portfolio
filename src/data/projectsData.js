@@ -28,13 +28,14 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Naphotie",
+
+    title: "ARN.IO",
     tagline:
-      "A website for posting and discovering nature images – your personal nature search engine.",
+      "A learning app that helps learners track their educational journey.",
     description:
-      "Explore the beauty of nature through high-quality images, or contribute your own photos to inspire others.",
-    color: "#FFD700",
-    github: "https://github.com/mukuvi/naphotie",
+      "ARN.IO makes learning more structured and rewarding by allowing users to set goals, track progress, and celebrate milestones, all in one place.",
+    color: "#FF4500",
+    github: "https://arn-io.vercel.app/",
   },
   {
     id: 3,
@@ -65,13 +66,13 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "ARN.IO",
+    title: "Naphotie",
     tagline:
-      "A learning app that helps learners track their educational journey.",
+      "A website for posting and discovering nature images – your personal nature search engine.",
     description:
-      "ARN.IO makes learning more structured and rewarding by allowing users to set goals, track progress, and celebrate milestones, all in one place.",
-    color: "#FF4500",
-    github: "https://arn-io.vercel.app/",
+      "Explore the beauty of nature through high-quality images, or contribute your own photos to inspire others.",
+    color: "#FFD700",
+    github: "https://github.com/mukuvi/naphotie",
   },
 ];
 
