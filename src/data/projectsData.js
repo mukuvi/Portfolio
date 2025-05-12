@@ -38,7 +38,7 @@ const projectsData = [
     github: "https://arn-io.vercel.app/",
   },
   {
-    id: 3,
+    id: 6,
     title: "ChepChat",
     tagline: "A simple, intuitive chatting web platform.",
     description:
@@ -47,7 +47,7 @@ const projectsData = [
     github: "https://github.com/mukuvi/chepchat",
   },
   {
-    id: 6,
+    id: 3,
     title: "Ecosense",
     tagline: "Transforming Urban Waste Management in Kenya",
     description:
