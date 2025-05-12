@@ -48,12 +48,12 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Aquasense-AI",
-    tagline: "Addressing Africa's waste and water challenges.",
+    title: "Ecosense",
+    tagline: "Transforming Urban Waste Management in Kenya",
     description:
-      "Harnessing the power of AI to tackle water scarcity and waste management issues, Aquasense-AI is helping communities across Africa make smarter, sustainable choices.",
+      "Ecosense uses AI to empower citizens in Kenyan cities to report and track waste pollution, fostering cleaner, more sustainable urban environments.",
     color: "#DC143C",
-    github: "https://github.com/mukuvi/aquasense-ai",
+    github: "https://github.com/mukuvi/Ecosense-Ai",
   },
   {
     id: 7,
