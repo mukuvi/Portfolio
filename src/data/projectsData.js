@@ -53,7 +53,7 @@ const projectsData = [
     description:
       "Ecosense uses AI to empower citizens in Kenyan cities to report and track waste pollution, fostering cleaner, more sustainable urban environments.",
     color: "#DC143C",
-    github: "https://github.com/mukuvi/Ecosense-Ai",
+    github: "https://ecosense-beta.vercel.app/",
   },
   {
     id: 7,
