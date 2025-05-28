@@ -312,7 +312,6 @@ export default function App() {
           </ul>
         </div>
 
-        {/* Projects Section */}
         <div className="section">
           <span className="prompt">mukuvi@portfolio:~$</span> ls ./projects
           <div className="section-title">Projects</div>
@@ -337,7 +336,6 @@ export default function App() {
           </ul>
         </div>
 
-        {/* Skills Section */}
         <div className="section">
           <span className="prompt">mukuvi@portfolio:~$</span> cat ./skills.txt
           <div className="section-title">Technologies & Skills</div>
@@ -350,7 +348,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* Contact Section */}
         <div className="section">
           <span className="prompt">mukuvi@portfolio:~$</span> echo "Contact &
           Links"
@@ -370,8 +367,8 @@ export default function App() {
         <div className="footer">
           <span className="prompt">mukuvi@portfolio:~$</span>
           <span className="blinking-cursor">█</span> <br />
-          &copy; 2025 <a href="https://www.mukuvi.me">mukuvi</a> &mdash; all
-          rights reserved
+          &copy; {new Date().getFullYear()}&mdash;
+          <a href="https://www.mukuvi.me">mukuvi</a> &mdash; all rights reserved
         </div>
       </div>
     </>
