@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -15,12 +16,9 @@ function Home() {
             that deliver exceptional user experiences.
           </p>
           <div className="home-btns">
-            <button
-              className="home-btn-work"
-              onClick={() => window.open("https://github.com/mukuvi")}
-            >
-              View My work
-            </button>
+            <Link to="/terminal">
+              <button className="home-btn-work">Terminal</button>
+            </Link>
             <button
               className="home-btn-contact"
               onClick={() => window.open("/jamesngandu.pdf")}
